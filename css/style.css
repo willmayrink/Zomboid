@@ -1,32 +1,74 @@
-body{
+body {
     font-family: 'Roboto', sans-serif;
 }
 
-.custom-gradient-text{
+.custom-gradient-text {
     background: linear-gradient(to right, #ED213A, #93291E);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-.head-lines{
-    font-family:'Bebas Neue', serif;
+.head-lines {
+    font-family: 'Bebas Neue', serif;
 }
-.card:hover{
-    transform:translateY(-20px);
+
+.card:hover {
+    transform: translateY(-20px);
     transition-duration: 0.7s;
-    border: 2px, solid;
-    border-color: #93291E;
 }
 
+.card-qol {
+    border: 3px, transparent;
+}
 
-.card-qol:hover{
+.card-wpn {
+    border: 3px, transparent;
+}
+
+.card-vh {
+    border: 3px, transparent;
+}
+
+.card-qol:hover {
     border: 3px, solid, #198754;
 
 }
-.card-wpn:hover{
+
+.card-wpn:hover {
     border: 3px, solid, #0d6efd;
 }
-.card-vh:hover{
+
+.card-vh:hover {
     border: 3px, solid, #ffc107;
+}
+
+@keyframes border-shine {
+    0% {
+        box-shadow: 0 0 5px transparent;
+    }
+
+    25% {
+        box-shadow: 0 0 10px #198754;
+    }
+
+    50% {
+        box-shadow: 0 0 25px #198754;
+    }
+
+    75% {
+        box-shadow: 0 0 10px #198754;
+    }
+
+    100% {
+        box-shadow: 0 0 5px #198754;
+    }
+}
+
+.card-body-qol:hover {
+    animation: border-shine 2s infinite;
+}
+
+.gojo-icon:hover {
+    transform: scale(2);
 }
