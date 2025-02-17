@@ -18,3 +18,15 @@ body{
     border: 2px, solid;
     border-color: #93291E;
 }
+
+
+.card-qol:hover{
+    border: 3px, solid, #198754;
+
+}
+.card-wpn:hover{
+    border: 3px, solid, #0d6efd;
+}
+.card-vh:hover{
+    border: 3px, solid, #ffc107;
+}
