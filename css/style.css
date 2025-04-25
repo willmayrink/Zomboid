@@ -52,6 +52,8 @@ body {
     border: rgba(179, 176, 176, 0.7) 1px solid;
 }
 
+
+
 .img-changelog-bg {
     position: relative;
 }
@@ -98,3 +100,15 @@ body {
     opacity: 0.3;
     z-index: -1;
 }
+
+.card-custom:hover{
+    transform: scale(1.03);
+    transition:ease-in-out 0.5s;
+    
+}
+
+.img-blurred{
+    filter: blur(2px);
+}
+
+
