@@ -71,3 +71,7 @@ body {
     border-radius:10px;
     border: rgba(179, 176, 176, 0.7) 1px solid;
 }
+
+.thumb{
+    object-fit: cover;
+}
