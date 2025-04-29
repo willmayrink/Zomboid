@@ -155,3 +155,8 @@ body {
 .font-banner {
     font-size: 14px;
 }
+
+.text-justify{
+    text-align: justify;
+    text-justify: inter-word;
+}
