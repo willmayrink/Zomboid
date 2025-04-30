@@ -51,48 +51,66 @@
         <span class="display-5 pt-5 fw-bold shadow-lg">Project Zomboid</span>
     </div>
 
-    <div class="container-fluid pt-lg-5 pe-5 ps-5 pt-5 mb-5" style="width: 100%;">
-        <div class="row justify-content-center">
-            <div class="col justify-content-center d-inline-flex">
-                <img src="img/thumb2.jpg" alt=""
-                    class="img-fluid shadow border border-body-tertiary rounded-4 opacity-75"
-                    style="height: 150px; object-fit: cover; width: 80%;">
-            </div>
-        </div>
+    <div class="container pt-lg-5 pe-5 ps-5 pt-5 mb-5" style="width: 100%;">
         <div class="row justify-content-center pt-5">
             <span class="display-4 text-center fw-bold pb-4">Tutoriais para <span class="text-danger">Project
                     Zomboid</span></span>
-            <p class="fs-6 text-center">Project Zomboid é um simulador de sobrevivência em um apocalipse zumbi, onde
+            <p class="fs-6 text-justify">Project Zomboid é um simulador de sobrevivência em um apocalipse zumbi, onde
                 cada decisão pode significar a diferença entre a vida e a morte. Para ajudar novos jogadores a se
                 adaptarem a esse mundo desafiador, apresentamos dois tutoriais de nível fácil: uma lista de tarefas
                 iniciais para sobreviver aos primeiros dias e um guia de áreas remotas com bons recursos para
                 estabelecer uma base segura. Esses tutoriais são baseados em guias confiáveis da comunidade, como o
-                <span class="badge text-bg-danger rounded-pill">PZWiki Survival Guide</span> e artigos de sites
+                <span class="badge text-bg-warning rounded-pill shadow">PZWiki Survival Guide</span> e artigos de sites
                 especializados.
             </p>
-
         </div>
-        <div class="container">
-            <button class="btn btn-outline-danger" style="width: auto;height: auto;" type="button"
-                data-bs-toggle="collapse" data-bs-target="#tutorial1" aria-expanded="false"
-                aria-controls="tutorial1">Tutorial 1: Tarefas Iniciais</button>
-
-            <div class="collapse" id="tutorial1">
+        <button class="btn btn-outline-danger text-white fw-bold rounded-pill" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseFirstGuide" aria-expanded="false" aria-controls="collapseFirstGuide">Tarefas
+            Iniciais</button>
+        <div class=" pt-3" id="collapseFirstGuide">
+            <div class="card card-body">
+                <h3>Lista de Tarefas Iniciais</h3>
+                <p class="text-justify">Este guia fornece uma lista de tarefas essenciais para os primeiros dias em
+                    Project Zomboid, ajudando você a se estabelecer e sobreviver ao apocalipse zumbi. Primeiro,
+                    precisamos definir prioridades.
+                <figure>
+                    <blockquote class="blockquote">
+                        <p class="fst-italic fs-6">O que eu devo fazer primeiro? O que é mais importante? O que eu devo
+                            evitar?</p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer">
+                        <span class="text-danger">Iniciante em project Zomboid</span> - <cite
+                            title="Zomboid is hard">Entre 2011 e 2025</cite>
+                    </figcaption>
+                </figure>
+                </p>
+                <p class="text-justify">Vamos organizar nossas necessidades em grupos: <span
+                        class="fw-bold">sobrevivência básica, combate e crescimento</span> em ordem prioritária conforme
+                    tabela abaixo:</p>
+                <div class="col-lg-5 col-md-19">
+                    <ul class="list-group pt-3 pb-3">
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <span class="fw-bold">Sobrevivência Básica</span> <span
+                                class="badge text-bg-danger rounded-pill shadow">Prioridade Máxima</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <span class="fw-bold">Combate</span> <span
+                                class="badge text-bg-warning rounded-pill shadow">Prioridade Média</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <span class="fw-bold">Crescimento</span> <span
+                                class="badge text-bg-success rounded-pill shadow">Prioridade Baixa</span>
+                        </li>
+                    </ul>
+                </div>
+                <p class="text-justify">Muitos iniciantes tendem a se sentirem perdidos com a imensidão de
+                    possibilidades entre as <span class="badge text-bg-warning"
+                        style="vertical-align: middle;">traits</span> , o sistema de <span class="badge text-bg-primary"
+                        style="vertical-align: middle;">crafting</span>, e mais recentemente o sistema de construção
+                    atualizado na <span class="badge bg-indigo " style="vertical-align: middle;">B42</span>.</p>
             </div>
         </div>
     </div>
-    <footer>
-        <div class="d-flex mb-5 justify-content-center" style="width: 85%; margin:auto">
-            <div class="row">
-                <div class="col ps-sm-0 img-bg img-bg-discord card-custom2 pt-3 border border-primary "
-                    style="height: 100px;border-radius: 10px; width: 250px;">
-                    <p class="text-end" style="font-size:14px;"><span
-                            class="badge rounded text-bg-dark border border-light rounded rounded-end-0">Servidor</span><span
-                            class="badge border border-light rounded rounded-start-0 text-bg-primary">Discord</span></p>
-                </div>
-            </div>
-        </div>
-    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
         </script>
