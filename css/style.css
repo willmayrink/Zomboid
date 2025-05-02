@@ -160,3 +160,19 @@ body {
     text-align: justify;
     text-justify: inter-word;
 }
+
+.mod-container {
+    margin-bottom: 20px;
+}
+.mod-image {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover; /* Garante que a imagem preencha o espaço */
+}
+.card-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Limita a 3 linhas */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
